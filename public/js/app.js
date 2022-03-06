@@ -1,5 +1,3 @@
-console.log('Client side javaScript file is loaded!')
-
 // without id querySelector target the first element eg: first form/input/paragrap/headings etc
 const weatherForm = document.querySelector('form') 
 const search = document.querySelector('input')
