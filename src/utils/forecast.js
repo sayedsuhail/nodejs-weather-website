@@ -15,7 +15,9 @@ const forecast = (latitude, longitude, callback) => {
         {
             callback(undefined, {
                 temperature: body.main.temp,
-                weather: body.weather[0].main
+                weather: body.weather[0].main,
+                windSpeed: body.wind.speed,
+                windDegree: body.wind.deg
             })
         }
     })// resquest
